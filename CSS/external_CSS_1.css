@@ -1,0 +1,32 @@
+body {
+    background-color: cornsilk;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+#MyID {
+    color: black;
+    font-size: 28px;
+    text-align: center;
+}
+
+p {
+    color: green;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.MyClass{
+    color: red;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

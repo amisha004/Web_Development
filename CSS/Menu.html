@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Menu Example</title>
+  <style>
+    .dropbtn {
+      background-color: cornsilk;
+      color: black;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #dbcccc;
+      min-width: 160px;
+      box-shadow: 0 8px 16px 0 rgba(32, 28, 28, 0.2);
+      z-index: 1;
+    }
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown-content a:hover {
+      background-color: #e5f58b;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .dropdown:hover .dropbtn {
+      background-color: rgb(237, 189, 100);
+    }
+  </style>
+</head>
+<body>
+<div>
+  <div class="dropdown">
+    <button class="dropbtn">Home</button>
+    <div class="dropdown-content">
+      <a href="https://www.bvmengineering.ac.in/">About BVM</a>
+      <a href="#">Management</a>
+      <a href="#">Central Library</a>
+      <a href="#">Facilities</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Department</button>
+    <div class="dropdown-content">
+      <a href="#">IT</a>
+      <a href="#">CE</a>
+      <a href="#">EC</a>
+      <a href="#">ME</a>
+      <a href="#">EE</a>
+      <a href="#">CE</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Student Chapter</button>
+    <div class="dropdown-content">
+      <a href="#">TRS</a>
+      <a href="#">SSIP</a>
+      <a href="#">TSA</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Exams & Results</button>
+    <div class="dropdown-content">
+      <a href="#">Results</a>
+      <a href="#">Format of Question papers</a>
+      <a href="#">Exam forms</a>
+    </div>
+  </div>
+</div><br><br>
+</body>
+<footer>20EC402-Amisha Sakhare</footer>
+</html>
